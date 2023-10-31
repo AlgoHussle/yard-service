@@ -52,7 +52,7 @@
 
   .cities-icon {
     width: 20px;
-    margin-right: 3px;
+    margin right: 3px;
   }
   .city-feature {
     font-size: 70%;
@@ -165,7 +165,7 @@
   }
   .app-screen {
     width: 30%;
-    background-size: contain; /* Adjust the background-size */
+    max-width: 100%; /* Adjust the max-width to prevent zooming */
   }
   .works-step p {
     font-size: 125%;

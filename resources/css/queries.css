@@ -41,6 +41,7 @@
 
   .app-screen {
     width: 60%;
+    background-size: contain; /* Adjust the background-size */
   }
   .btn-app-apple img,
   .btn-app-android img {
@@ -164,6 +165,7 @@
   }
   .app-screen {
     width: 30%;
+    background-size: contain; /* Adjust the background-size */
   }
   .works-step p {
     font-size: 125%;

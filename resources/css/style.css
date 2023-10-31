@@ -749,6 +749,10 @@ footer p {
 /* ... (your existing CSS code) ... */
 
 /* Default styles for larger screens */
+header {
+  background-image: url(images/doitright1.jpeg); /* Use the same image for larger screens */
+  background-size: cover;
+}
 
 /* Tablet styles */
 @media screen and (max-width: 1024px) {
@@ -760,15 +764,14 @@ footer p {
 /* Mobile landscape styles */
 @media screen and (max-width: 767px) {
   header {
-    background-image: url(images/doitright1.jpeg); /* Use the same image for mobile landscape */
-    background-size: cover; /* Adjust the background size for better display on smaller screens */
+    background-size: contain; /* Adjust the background size for better display on smaller screens */
   }
 }
 
 /* Mobile portrait styles */
 @media screen and (max-width: 480px) {
   header {
-    background-image: url(images/doitright1.jpeg); /* Use the same image for mobile portrait */
-    background-size: cover; /* Adjust the background size for better display on smaller screens */
+    background-size: contain; /* Adjust the background size for better display on smaller screens */
   }
 }
+

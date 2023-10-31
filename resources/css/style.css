@@ -752,6 +752,6 @@ footer p {
 @media screen and (max-width: 767px) {
   header {
     background-image: url(images/doitright1.jpeg); /* Provide the optimized mobile image path */
-    background-size: cover;
+    background-size: fill;
   }
 }

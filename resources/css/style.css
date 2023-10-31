@@ -745,3 +745,13 @@ footer p {
 .js--wp-1.animated {
   opacity: 1;
 }
+
+/* ... (your existing CSS code) ... */
+
+/* Mobile Optimized Styles */
+@media screen and (max-width: 767px) {
+  header {
+    background-image: url(images/doitright1-mobile.jpeg); /* Provide the optimized mobile image path */
+    background-size: cover;
+  }
+}

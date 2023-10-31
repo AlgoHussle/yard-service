@@ -761,7 +761,7 @@ footer p {
 @media screen and (max-width: 767px) {
   header {
     background-image: url(images/doitright1.jpeg); /* Use the same image for mobile landscape */
-    background-size: contain; /* Adjust the background size for better display on smaller screens */
+    background-size: cover; /* Adjust the background size for better display on smaller screens */
   }
 }
 
@@ -769,7 +769,6 @@ footer p {
 @media screen and (max-width: 480px) {
   header {
     background-image: url(images/doitright1.jpeg); /* Use the same image for mobile portrait */
-    background-size: contain; /* Adjust the background size for better display on smaller screens */
+    background-size: cover; /* Adjust the background size for better display on smaller screens */
   }
 }
-

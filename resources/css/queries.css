@@ -40,8 +40,11 @@
   }
 
   .app-screen {
-    width: 60%;
-    background-size: contain; /* Adjust the background-size */
+    width: 100%; /* Set the app screen width to 100% */
+    height: auto;  /* Ensure the height adjusts accordingly */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
   }
   .btn-app-apple img,
   .btn-app-android img {
@@ -52,7 +55,7 @@
 
   .cities-icon {
     width: 20px;
-    margin right: 3px;
+    margin-right: 3px;
   }
   .city-feature {
     font-size: 70%;
@@ -164,8 +167,11 @@
     margin-right: 15px;
   }
   .app-screen {
-    width: 30%;
-    max-width: 100%; /* Adjust the max-width to prevent zooming */
+    width: 100%; /* Set the app screen width to 100% */
+    height: auto;  /* Ensure the height adjusts accordingly */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
   }
   .works-step p {
     font-size: 125%;
